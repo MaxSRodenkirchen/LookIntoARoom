@@ -175,7 +175,8 @@
         "loop": true
       },
       "name": "Conference_forAR.glb",
-      "order": 1.3599147137174281
+      "order": 1.3599147137174281,
+      "hidden": true
     },
     "ea21a234-ff3b-4d52-8c5f-9babb36df044": {
       "id": "ea21a234-ff3b-4d52-8c5f-9babb36df044",
@@ -336,6 +337,111 @@
       "components": {},
       "name": "Plane left",
       "order": 7.373077031873821
+    },
+    "19040d05-bee7-49d8-87b8-31f94678c899": {
+      "id": "19040d05-bee7-49d8-87b8-31f94678c899",
+      "position": [
+        -0.23127103098453272,
+        -1.9917773987911338,
+        -7.044259750474227
+      ],
+      "rotation": [
+        0,
+        -0.11320321376790689,
+        0,
+        0.9935718556765876
+      ],
+      "scale": [
+        1,
+        1.0000000000000002,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "7828f2e2-2d11-4ff4-a10e-72fb3b0dba58",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Auditorium_FinishedV3.glb"
+        },
+        "animationClip": "*",
+        "loop": true
+      },
+      "name": "Auditorium_FinishedV3.glb",
+      "order": 8.467047773590028,
+      "hidden": false
+    },
+    "6124618e-1b33-4239-95ce-9037a1a641b9": {
+      "id": "6124618e-1b33-4239-95ce-9037a1a641b9",
+      "position": [
+        -9.751573622413366,
+        -0.7909348556067979,
+        -12.43833549432711
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "7828f2e2-2d11-4ff4-a10e-72fb3b0dba58",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/IndustrialHall_ModularKit_8thWallV4.glb"
+        },
+        "animationClip": "*",
+        "loop": true
+      },
+      "name": "IndustrialHall_ModularKit_8thWallV4.glb",
+      "order": 10.232625406115844,
+      "disabled": true,
+      "hidden": false
+    },
+    "744601c1-2db9-4c2c-a7f7-7b91357afc23": {
+      "id": "744601c1-2db9-4c2c-a7f7-7b91357afc23",
+      "position": [
+        0,
+        -1.475263734502462,
+        -10.369829071563071
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "7828f2e2-2d11-4ff4-a10e-72fb3b0dba58",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/ConferenceRoom_8thWall_V3.glb"
+        },
+        "animationClip": "*",
+        "loop": true,
+        "paused": false
+      },
+      "name": "ConferenceRoom_8thWall_V3.glb",
+      "order": 11.349996980631113,
+      "disabled": true,
+      "hidden": true
     }
   },
   "spaces": {
