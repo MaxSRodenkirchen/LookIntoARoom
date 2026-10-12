@@ -174,8 +174,7 @@
       "components": {},
       "name": "Plane",
       "order": 3.0037596500471206,
-      "hidden": false,
-      "disabled": true
+      "hidden": false
     },
     "6aae308f-0b85-4495-abda-e4f22be64c25": {
       "id": "6aae308f-0b85-4495-abda-e4f22be64c25",
@@ -206,8 +205,7 @@
       "parentId": "7828f2e2-2d11-4ff4-a10e-72fb3b0dba58",
       "components": {},
       "name": "Plane (1)",
-      "order": 4.050435953651733,
-      "disabled": true
+      "order": 4.050435953651733
     },
     "1da62001-77b5-406c-9b78-e60246685df0": {
       "id": "1da62001-77b5-406c-9b78-e60246685df0",
@@ -238,8 +236,7 @@
       "parentId": "7828f2e2-2d11-4ff4-a10e-72fb3b0dba58",
       "components": {},
       "name": "Plane right",
-      "order": 5.888641656151067,
-      "disabled": true
+      "order": 5.888641656151067
     },
     "649823fc-5c32-40c6-af0e-de7d12dfd79f": {
       "id": "649823fc-5c32-40c6-af0e-de7d12dfd79f",
@@ -270,42 +267,7 @@
       "parentId": "7828f2e2-2d11-4ff4-a10e-72fb3b0dba58",
       "components": {},
       "name": "Plane left",
-      "order": 7.373077031873821,
-      "disabled": true
-    },
-    "19040d05-bee7-49d8-87b8-31f94678c899": {
-      "id": "19040d05-bee7-49d8-87b8-31f94678c899",
-      "position": [
-        -0.23127103098453272,
-        -1.9917773987911338,
-        -7.044259750474227
-      ],
-      "rotation": [
-        0,
-        -0.11320321376790689,
-        0,
-        0.9935718556765876
-      ],
-      "scale": [
-        1,
-        1.0000000000000002,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "7828f2e2-2d11-4ff4-a10e-72fb3b0dba58",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/Auditorium_FinishedV3.glb"
-        },
-        "animationClip": "*",
-        "loop": true
-      },
-      "name": "Auditorium_FinishedV3.glb",
-      "order": 8.467047773590028,
-      "hidden": false
+      "order": 7.373077031873821
     },
     "a48bb037-80d6-45e0-9ed8-6feb11c4e7aa": {
       "id": "a48bb037-80d6-45e0-9ed8-6feb11c4e7aa",
@@ -340,7 +302,41 @@
         "loop": true
       },
       "name": "testMask.glb",
-      "order": 14.156755512000233
+      "order": 14.156755512000233,
+      "disabled": true
+    },
+    "61647f33-4df8-41b2-b9b1-0cd6ec5dbb2c": {
+      "id": "61647f33-4df8-41b2-b9b1-0cd6ec5dbb2c",
+      "position": [
+        -8.877514741836244,
+        -1.1825767592528025,
+        -13.675265465981102
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "7828f2e2-2d11-4ff4-a10e-72fb3b0dba58",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/IndustrialHall_ModularKit_8thWallV6.glb"
+        },
+        "animationClip": "*",
+        "loop": true
+      },
+      "name": "IndustrialHall_ModularKit_8thWallV6.glb",
+      "order": 15.638601937154409
     }
   },
   "spaces": {
