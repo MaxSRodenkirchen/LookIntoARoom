@@ -144,76 +144,6 @@
       "name": "Empty Object",
       "order": 8.209053012329106
     },
-    "a73bb158-0678-4730-a65d-a7f6036804cc": {
-      "id": "a73bb158-0678-4730-a65d-a7f6036804cc",
-      "position": [
-        0,
-        -0.6190688013787233,
-        -2.3859906170377183
-      ],
-      "rotation": [
-        0,
-        -0.7071067811865475,
-        0,
-        0.7071067811865476
-      ],
-      "scale": [
-        0.2,
-        0.2,
-        0.2
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "7828f2e2-2d11-4ff4-a10e-72fb3b0dba58",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/Conference_forAR.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "Conference_forAR.glb",
-      "order": 1.3599147137174281,
-      "hidden": true
-    },
-    "ea21a234-ff3b-4d52-8c5f-9babb36df044": {
-      "id": "ea21a234-ff3b-4d52-8c5f-9babb36df044",
-      "position": [
-        0,
-        -0.359,
-        -0.5
-      ],
-      "rotation": [
-        0,
-        -0.7071067811865475,
-        0,
-        0.7071067811865476
-      ],
-      "scale": [
-        0.0385,
-        0.0385,
-        0.0385
-      ],
-      "geometry": null,
-      "material": {
-        "type": "hider"
-      },
-      "parentId": "7828f2e2-2d11-4ff4-a10e-72fb3b0dba58",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/Conference_forAR_Hider_2.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "00_Conference_forAR_Hider_2.glb",
-      "order": -2.4803933663546074,
-      "hidden": true
-    },
     "49f97006-470c-45e3-885d-a55c05779553": {
       "id": "49f97006-470c-45e3-885d-a55c05779553",
       "position": [
@@ -243,7 +173,9 @@
       "parentId": "7828f2e2-2d11-4ff4-a10e-72fb3b0dba58",
       "components": {},
       "name": "Plane",
-      "order": 3.0037596500471206
+      "order": 3.0037596500471206,
+      "hidden": false,
+      "disabled": true
     },
     "6aae308f-0b85-4495-abda-e4f22be64c25": {
       "id": "6aae308f-0b85-4495-abda-e4f22be64c25",
@@ -274,7 +206,8 @@
       "parentId": "7828f2e2-2d11-4ff4-a10e-72fb3b0dba58",
       "components": {},
       "name": "Plane (1)",
-      "order": 4.050435953651733
+      "order": 4.050435953651733,
+      "disabled": true
     },
     "1da62001-77b5-406c-9b78-e60246685df0": {
       "id": "1da62001-77b5-406c-9b78-e60246685df0",
@@ -305,7 +238,8 @@
       "parentId": "7828f2e2-2d11-4ff4-a10e-72fb3b0dba58",
       "components": {},
       "name": "Plane right",
-      "order": 5.888641656151067
+      "order": 5.888641656151067,
+      "disabled": true
     },
     "649823fc-5c32-40c6-af0e-de7d12dfd79f": {
       "id": "649823fc-5c32-40c6-af0e-de7d12dfd79f",
@@ -336,7 +270,8 @@
       "parentId": "7828f2e2-2d11-4ff4-a10e-72fb3b0dba58",
       "components": {},
       "name": "Plane left",
-      "order": 7.373077031873821
+      "order": 7.373077031873821,
+      "disabled": true
     },
     "19040d05-bee7-49d8-87b8-31f94678c899": {
       "id": "19040d05-bee7-49d8-87b8-31f94678c899",
@@ -372,76 +307,40 @@
       "order": 8.467047773590028,
       "hidden": false
     },
-    "6124618e-1b33-4239-95ce-9037a1a641b9": {
-      "id": "6124618e-1b33-4239-95ce-9037a1a641b9",
+    "a48bb037-80d6-45e0-9ed8-6feb11c4e7aa": {
+      "id": "a48bb037-80d6-45e0-9ed8-6feb11c4e7aa",
       "position": [
-        -9.751573622413366,
-        -0.7909348556067979,
-        -12.43833549432711
+        0,
+        0,
+        0
       ],
       "rotation": [
         0,
+        0.7071067811865475,
         0,
-        0,
-        1
+        0.7071067811865476
       ],
       "scale": [
-        1,
-        1,
-        1
+        0.4711452190735833,
+        0.4711452190735833,
+        0.4711452190735833
       ],
       "geometry": null,
-      "material": null,
+      "material": {
+        "type": "hider"
+      },
       "parentId": "7828f2e2-2d11-4ff4-a10e-72fb3b0dba58",
       "components": {},
       "gltfModel": {
         "src": {
           "type": "asset",
-          "asset": "assets/IndustrialHall_ModularKit_8thWallV4.glb"
+          "asset": "assets/testMask.glb"
         },
-        "animationClip": "*",
+        "animationClip": "",
         "loop": true
       },
-      "name": "IndustrialHall_ModularKit_8thWallV4.glb",
-      "order": 10.232625406115844,
-      "disabled": true,
-      "hidden": false
-    },
-    "744601c1-2db9-4c2c-a7f7-7b91357afc23": {
-      "id": "744601c1-2db9-4c2c-a7f7-7b91357afc23",
-      "position": [
-        0,
-        -1.475263734502462,
-        -10.369829071563071
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "7828f2e2-2d11-4ff4-a10e-72fb3b0dba58",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/ConferenceRoom_8thWall_V3.glb"
-        },
-        "animationClip": "*",
-        "loop": true,
-        "paused": false
-      },
-      "name": "ConferenceRoom_8thWall_V3.glb",
-      "order": 11.349996980631113,
-      "disabled": true,
-      "hidden": true
+      "name": "testMask.glb",
+      "order": 14.156755512000233
     }
   },
   "spaces": {
